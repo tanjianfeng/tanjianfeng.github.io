@@ -1,8 +1,0 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background circle -->
-  <circle cx="150" cy="150" r="145" fill="#2e7bcf" stroke="#ffffff" stroke-width="8"/>
-  
-  <!-- Initials text -->
-  <text x="150" y="180" font-family="Arial, sans-serif" font-size="100" font-weight="bold" 
-        fill="#ffffff" text-anchor="middle">TJF</text>
-</svg>
