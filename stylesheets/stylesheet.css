@@ -414,8 +414,10 @@ Full-Width Styles
 }
 
 .profile_title {
+  display: block;
   font-weight: 300;
-  margin-left: 12px;
+  font-style: italic;
+  margin-left: 0;
 }
 
 #downloads {
