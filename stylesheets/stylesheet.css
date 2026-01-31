@@ -200,6 +200,84 @@ ul, ol, dl {
   margin-bottom: 15px
 }
 
+/*******************************************************************************
+Custom Additions
+*******************************************************************************/
+
+.top_nav {
+  margin-top: 10px;
+}
+
+.nav_link {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: #f2f2f2;
+  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+}
+
+.nav_link.is-active {
+  background: #007edf;
+  color: #ffffff;
+}
+
+.lede {
+  font-size: 18px;
+}
+
+.pill_row {
+  margin: 10px 0 15px 0;
+}
+
+.pill {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  padding: 4px 10px;
+  background: #f2f2f2;
+  border-radius: 999px;
+  font-size: 13px;
+  color: #222;
+}
+
+.highlight_list li {
+  margin-bottom: 8px;
+  list-style: disc;
+  margin-left: 18px;
+}
+
+.timeline {
+  margin: 10px 0 15px 0;
+}
+
+.timeline_item {
+  margin-bottom: 10px;
+}
+
+.timeline_when {
+  font-weight: bold;
+  color: #222;
+}
+
+.timeline_what {
+  color: #333;
+}
+
+.skills_grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills_grid li {
+  list-style: none;
+  background: #f2f2f2;
+  color: #222;
+  padding: 6px 10px;
+  margin: 0 8px 8px 0;
+  border-radius: 4px;
+}
+
 ul {
   list-style-position: inside;
   list-style: disc;
@@ -437,4 +515,3 @@ Profile Photo Styles
   border: 4px solid #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-

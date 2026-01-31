@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Details for Jianfeng Tan: experience, projects, education, and skills.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Jianfeng Tan | Details</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/tanjianfeng">View on GitHub</a>
+
+          <img src="images/profile.png" alt="Jianfeng Tan profile photo" id="profile_photo">
+          <h1 id="project_title">Jianfeng Tan</h1>
+          <h2 id="project_tagline">Systems Engineer | Tech Lead | Builder</h2>
+          <nav class="top_nav" aria-label="Primary">
+            <a class="nav_link" href="index.html">Highlights</a>
+            <a class="nav_link is-active" href="about.html">Details</a>
+            <a class="nav_link" href="publications.html">Publications</a>
+          </nav>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="summary" class="anchor" href="#summary" aria-hidden="true"><span class="octicon octicon-link"></span></a>Summary</h3>
+
+<p>Tech lead and manager specializing in cloud-native infrastructure, secure containers, OS performance, and ML systems. Currently building DeepSYS and DeepXPU at Ant Group.</p>
+
+<h3>
+<a id="experience" class="anchor" href="#experience" aria-hidden="true"><span class="octicon octicon-link"></span></a>Experience &amp; Education</h3>
+
+<div class="timeline">
+  <div class="timeline_item">
+    <div class="timeline_when">2018.05-present</div>
+    <div class="timeline_what">
+      <strong>Ant Group</strong> - Operating System (P7 -> P8 -> 17)
+    </div>
+  </div>
+  <div class="timeline_item">
+    <div class="timeline_when">2015.08-2018.04</div>
+    <div class="timeline_what">
+      <strong>Intel</strong> - DCG NPG (Grade 6 -> 7)
+    </div>
+  </div>
+  <div class="timeline_item">
+    <div class="timeline_when">2014.07-2015.08</div>
+    <div class="timeline_what">
+      <strong>VMware</strong> - NSBU, MTS-2
+    </div>
+  </div>
+  <div class="timeline_item">
+    <div class="timeline_when">2011.08-2014.06</div>
+    <div class="timeline_what">
+      <strong>Tsinghua University</strong> - M.S. in Computer Science and Technology
+    </div>
+  </div>
+  <div class="timeline_item">
+    <div class="timeline_when">2007.09-2011.06</div>
+    <div class="timeline_what">
+      <strong>Nankai University</strong> - B.S. in Software Engineering
+    </div>
+  </div>
+</div>
+
+<h3>
+<a id="projects" class="anchor" href="#projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>Related Projects</h3>
+
+<h4>Ant Group (2018.05-present) - Cloud-Native Infrastructure Tech Lead &amp; Manager</h4>
+<ul>
+  <li><strong>Ant OS</strong>: Maintains Linux OS for cloud and output scenarios, improving performance, stability, isolation, multi-vendor CPU support, tooling, and testing.</li>
+  <li><strong>NanoVisor</strong>: Next-gen secure container based on gVisor with NanoVM hypervisor, userspace network stack (TLDK), and customized Go runtime. Scaled to 200k pods in production, reduced CPU overhead from +52% to 10% less CPU, and improved throughput by 30-80% on nginx/redis compared with runc.</li>
+  <li><strong>FaaS</strong>: Engineered a high-performance runtime with cold starts &lt;5ms, minimal memory footprint (&lt;1MB), and scaling to 4,000+ instances per second per node.</li>
+  <li><strong>MLSys</strong>: GPU virtualization and profiling, optimized kernels, throughput-first inference, LLM fast scale-out, RL performance optimization, and agent tool sandbox.</li>
+  <li><strong>Publications &amp; Patents</strong>: 3 papers (TCP-Fuzz@ATC'21, AFaaS@OSDI'25, SKernel@EuroSys'26) and 7 patents.</li>
+</ul>
+
+<h4>Intel (2015.08-2018.04) - DPDK Open Source Tech Lead</h4>
+<ul>
+  <li><strong>DPDK containerization</strong>: Designed virtio-user interface and dynamic memory management, proposed Multus-CNI for multi-network paths.</li>
+  <li><strong>SmartNIC</strong>: Contributed to FPGA/ASIC NICs with vDPA (virtio Data Path Acceleration) and virtio 1.1 spec advancement.</li>
+  <li><strong>vSwitch (OVS-DPDK)</strong>: Supported vSwitch projects used by Aliyun, Meituan, and JD; added hot-upgrade, hot-migration, and VM memory hot-plug capabilities.</li>
+  <li><strong>Publication</strong>: virtio-user@KBNets2017; maintained virtio/vhost in DPDK.</li>
+</ul>
+
+<h4>VMware (2014.07-2015.08) - NSX Edge Load Balancer (Individual Contributor)</h4>
+<ul>
+  <li>Designed a scalable user-space load balancer with DPDK packet processing, FreeBSD TCP/UDP stack, and hierarchical async model for multi-core scalability.</li>
+  <li>Deep experience in L4/L7 load balancers (IPVS, Nginx, HAProxy), netfilter, SSL/TLS, and network virtualization (DFW, micro-segmentation, VLAN/VXLAN, DHCP).</li>
+  <li>Performance tuning and troubleshooting across distributed switching and routing stacks.</li>
+</ul>
+
+<h4>Research &amp; Academic Projects</h4>
+<ul>
+  <li><strong>Memory virtualization performance tuning</strong> (2013.08-2014.05): Focused on para-virtualization methods and VM-exits reduction for system security.</li>
+  <li><strong>Kernel analysis and security evaluation of open source OS</strong> (2012.10-2013.01): Analyzed Linux MAC (Flask, LSM, SELinux, Smack, AppArmor, Tomoyo), authentication, audit, DAC, and network security.</li>
+  <li><strong>Smart remote control of projectors</strong> (2009.09-2011.03): Built ARM/WinCE system with PocketSphinx speech recognition.</li>
+</ul>
+
+<h3>
+<a id="skills" class="anchor" href="#skills" aria-hidden="true"><span class="octicon octicon-link"></span></a>Skills</h3>
+
+<ul class="skills_grid">
+  <li>C/C++</li>
+  <li>Go</li>
+  <li>Perl</li>
+  <li>Bash</li>
+  <li>Linux</li>
+  <li>Open-source systems</li>
+  <li>System security</li>
+  <li>SDN &amp; networking stack</li>
+  <li>Kubernetes &amp; containers</li>
+  <li>x86 architecture</li>
+</ul>
+
+<h3>
+<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h3>
+
+<p>Email: <a href="mailto:tanjianfeng777@gmail.com">tanjianfeng777@gmail.com</a></p>
+<p>Phone: 138-1000-5446</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+  </body>
+</html>
