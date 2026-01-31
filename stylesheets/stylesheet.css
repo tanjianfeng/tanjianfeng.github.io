@@ -362,20 +362,24 @@ Full-Width Styles
   padding: 50px 10px 30px 10px;
 }
 
-#project_title {
-  margin: 0;
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+.profile_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
-#project_tagline {
+.profile_line {
   color: #fff;
-  font-size: 24px;
-  font-weight: 300;
-  background: none;
+  font-size: 34px;
+  font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+  white-space: nowrap;
+}
+
+.profile_title {
+  font-weight: 300;
+  margin-left: 12px;
 }
 
 #downloads {
@@ -451,8 +455,20 @@ Small Device Styles
     max-width: 480px;
   }
 
-  #project_title {
-  font-size: 32px;
+  .profile_header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .profile_line {
+    font-size: 24px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  #profile_photo {
+    width: 160px;
+    height: 160px;
   }
 
   h1 {
@@ -493,9 +509,9 @@ Profile Photo Styles
 
 #profile_photo {
   display: block;
-  width: 150px;
-  height: 150px;
-  margin: 0 auto 20px auto;
+  width: 190px;
+  height: 190px;
+  margin: 0;
   border-radius: 50%;
   border: 4px solid #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
