@@ -423,3 +423,18 @@ Small Device Styles
   }
 
 }
+
+/*******************************************************************************
+Profile Photo Styles
+*******************************************************************************/
+
+#profile_photo {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
