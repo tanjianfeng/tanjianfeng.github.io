@@ -227,18 +227,54 @@ Custom Additions
   font-size: 18px;
 }
 
-.pill_row {
-  margin: 10px 0 15px 0;
+.word_cloud {
+  margin: 10px 0 18px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
 }
 
-.pill {
+.word_cloud .word {
   display: inline-block;
-  margin: 0 8px 8px 0;
-  padding: 4px 10px;
-  background: #f2f2f2;
+  padding: 4px 8px;
   border-radius: 999px;
+  background: rgba(0, 126, 223, 0.08);
+  color: #163a5f;
+  transform: rotate(-2deg);
+  letter-spacing: 0.2px;
+}
+
+.word_cloud .word:nth-child(2n) {
+  transform: rotate(2deg);
+  background: rgba(255, 165, 0, 0.12);
+  color: #6a3c00;
+}
+
+.word_cloud .word:nth-child(3n) {
+  transform: rotate(-4deg);
+  background: rgba(34, 139, 34, 0.12);
+  color: #1f4d1f;
+}
+
+.word_cloud .w-2 {
   font-size: 13px;
-  color: #222;
+  font-weight: 500;
+}
+
+.word_cloud .w-3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.word_cloud .w-4 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.word_cloud .w-5 {
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .highlight_list li {
