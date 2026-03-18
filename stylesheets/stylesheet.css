@@ -227,6 +227,13 @@ Custom Additions
   font-size: 18px;
 }
 
+.keyword_highlight {
+  background: linear-gradient(transparent 62%, #ffe58f 62%);
+  font-weight: 700;
+  color: #1f1f1f;
+  padding: 0 2px;
+}
+
 .word_cloud {
   margin: 10px 0 18px 0;
   display: flex;
